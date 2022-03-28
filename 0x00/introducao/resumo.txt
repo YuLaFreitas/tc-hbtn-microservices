@@ -1,25 +1,11 @@
-O resumo deverá conter as seguintes informações:
-
-O que é microsserviços ?
-
-São sistemas, que são agrupados com o objetivo de atender um demandas, sem ter uma forte dependência entre se.
-
-Visão geral da arquitetura Monolítica e de Microserviços
-
-Na Monolítica, temos um software composto de vários serviços e com uma forte dependência entre se.
+Os microserviços são sistemas, que são agrupados com o objetivo de atender um demandas, sem ter uma forte dependência entre se.
+Emquanto os Monolítica, são compostos de vários serviços e com uma forte dependência entre se.
 No Microserviços, temos um software que tem a sua disposição vários recursos que podem ser usados por ele sem que o mesmo tenha uma dependência destes serviços.
-
-Os benefícios da arquitetura de microsserviços - Cite 3 exemplos
-
+Podemos apontar 3 benéficios:
 É otimizado para realizar manutenção.
 	Muitas vezes é necessário atualizar a versão do php, como os outos componentes estão funcionando, e é possível criar um serviço de redundância, podemos para o mesmo sem prejudicar a comunicação com o cliente.
-
 O processamento de dados é facilitado, já que um serviço não precisa de outro para seu bom funcionamento.
 	Caso o serviço do banco de dados estiver sendo muito demandado, ele podera realizar os processamentos internos, sem interferir no funcionamento de outros serviços como o de comunicação com API.
-
 Melhor utilização do hardware, já que poderá ser configurado de acordo com as necessidades que cada serviço tem.
 	O serviço de banco de dados poderá ser configurado para utilizar maior espaço de disco, enquanto que o de conexão, poderá usar o processamento.
-
-Quais são os tipos de comunicação entre os microsserviços ?
-Temos a comunicação síncrona, e assicrona.
-
+Esse utilizam a comunicação síncrona, e assicrona.
